@@ -1,0 +1,9 @@
+{
+    "functions": {
+      "api/validate-json": {
+        "handler": "index.handler",
+        "runtime": "nodejs16"
+      }
+    }
+  }
+  
