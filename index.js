@@ -22,7 +22,7 @@ app.post('/api/validate-json', (req, res) => {
 
 app.get('/', (req,res) =>{
     return res.status(200).json({
-        title: "Post API testing",
+        title: "Demi API Testing",
         message: "Use the URL to sent POST request for testing  https://json-api-tester.vercel.app/api/validate-json",
       });
 });
